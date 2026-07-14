@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+storage/uploads/*
+storage/chroma_db/*
+storage/reports/*
+storage/presentations/*
+storage/workspace.db
+!storage/uploads/.gitkeep
+!storage/chroma_db/.gitkeep
+!storage/reports/.gitkeep
+!storage/presentations/.gitkeep
+.pytest_cache/
